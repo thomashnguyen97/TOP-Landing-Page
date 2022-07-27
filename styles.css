@@ -1,7 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
 }
 
 header, footer {
@@ -13,16 +17,16 @@ header, footer {
     color: #F9FAF8;
 }
 
-ul {
+a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
     justify-content: flex-end;
-    
+    align-items: center;
 }
 
-header > h1 {
+header > h3 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -33,10 +37,28 @@ header > p {
     color: #E5E7EB;
 }
 
-.pics > h2 {
+.portland {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.info {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.donutshops {
+    height: 120px;
+    width: 120px;
+    border-color: blue;
+    border-radius: 25%;
 }
 
 .quote {

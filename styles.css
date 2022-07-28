@@ -1,49 +1,65 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
-
-header, footer {
+nav {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding: 20px 0 20px 100px;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    padding: 20px 100px 20px 0;
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    padding: 10px;
+    font-size: 14px;
 }
 
-header > h3 {
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.section1 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
-header > p {
+.section1 p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.portland {
-    height: 250px;
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+.section1 img {
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .info {
@@ -81,9 +97,9 @@ header > p {
     padding: 0 500px 30px 0;
 }
 
-footer {
-    display: flex;
+.footer {
     justify-content: center;
-    align-items: center;
     color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
 }
